@@ -1,1 +1,1 @@
-# ДЗ: 13-query
+# ДЗ: 15-task-object
