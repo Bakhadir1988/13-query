@@ -1,7 +1,7 @@
 const queryParams = (search, take) => {
   const query = { search, take };
   const queryString = Object.keys(query).map(value => `${value}=${query[value]}`).join('&');
-  return queryString;
+  return `?${queryString}`;
 }
 const result = queryParams('Вася', 10);
 
